@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style></style>
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/array_filter.js"></script>
+</head>
+
+<body onload="onInputHandler()">
+    <div class="wrapper">
+        <header class="header">
+
+            <div class="title-1">
+               <p class="app-name"> BookMyShow</p>
+            </div>
+            <!-- --------------------------------search-input------------------ -->
+            <div class="title-2">
+                <input type="text" name="name" required id="MOVIEINPUT" onkeyup="onInputHandler()" class="movieNameInput"
+                    placeholder="Search for names..">
+                <button type="submit" class="input-submit-search">
+                    <i class="fa fa-search">
+                    </i>
+                </button>
+            </div>
+            <!-- --------------------------------search-input-END------------------ -->
+            <div class="title-3">
+                <div class="inner-title-3-cmds">
+                    <h7 class="h1head1"><a href="#">Now showing</a></h7>
+                    <h7 class="h1head2"><a href="#">Coming Soon</a></h7>
+                    <h7 class="h1head3"><a href="#">Exclusive</a></h7>
+                </div>
+            </div>
+
+
+            
+        </header>
+        <article class="container">
+            <section id="movieContainer">
+                
+            </section>
+        </article>
+    </div>
+</body>
+</html>
